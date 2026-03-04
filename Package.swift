@@ -11,19 +11,10 @@ let package = Package(
         .library(name: "ShortKit", targets: ["ShortKit"]),
     ],
     targets: [
-        // Pre-compiled binary framework
         .binaryTarget(
-            name: "ShortKitBinary",
-            url: "\(baseURL)/ShortKit.xcframework.zip",
-            checksum: "a0ac152950e19ef3f858f362748463caaec278baca46fa7023058ca864b794b9"
-        ),
-
-        // Wrapper target for dependency resolution + resource bundle delivery
-        .target(
             name: "ShortKit",
-            dependencies: ["ShortKitBinary"],
-            path: "Sources/ShortKit",
-            resources: [.copy("ShortKit_ShortKit.bundle")]
+            url: "\(baseURL)/ShortKit.xcframework.zip",
+            checksum: "abd2995229bdc7d8940bd4e5631d513d0434c791cad081458ce6279bdb93e7db"
         ),
     ]
 )
