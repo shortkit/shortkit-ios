@@ -1,1 +1,1 @@
-@_exported import ShortKitBinary
+@_exported import ShortKitSDK
