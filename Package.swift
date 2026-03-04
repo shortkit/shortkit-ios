@@ -15,7 +15,7 @@ let package = Package(
         .binaryTarget(
             name: "ShortKitBinary",
             url: "\(baseURL)/ShortKit.xcframework.zip",
-            checksum: "PLACEHOLDER"
+            checksum: "a0ac152950e19ef3f858f362748463caaec278baca46fa7023058ca864b794b9"
         ),
 
         // Wrapper target for dependency resolution + resource bundle delivery
