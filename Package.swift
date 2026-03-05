@@ -14,7 +14,7 @@ let package = Package(
         .binaryTarget(
             name: "ShortKitSDK",
             url: "\(baseURL)/ShortKitSDK.xcframework.zip",
-            checksum: "d0074f04f264e6b20b22a5a38150a68d43c4e72fb031b3fa435df84dc4e8557e"
+            checksum: "54903bacabdeeec2ffacc7cae4596364643796526092b6e72380c310f5984f18"
         ),
     ]
 )
