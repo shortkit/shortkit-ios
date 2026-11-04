@@ -1,7 +1,7 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-let version = "0.3.0"
+let version = "0.3.1"
 let baseURL = "https://github.com/shortkit/shortkit-ios/releases/download/\(version)"
 
 let package = Package(
@@ -14,7 +14,7 @@ let package = Package(
         .binaryTarget(
             name: "ShortKitSDK",
             url: "\(baseURL)/ShortKitSDK.xcframework.zip",
-            checksum: "8588ef519db367d7bd7a31a8dbfdcb4e7757359369ea58934e48ce77f336f1b6"
+            checksum: "fe18af12144160591ecd158a8bf57811109feec720d0cc75082e663fb11b9ae7"
         ),
     ]
 )
